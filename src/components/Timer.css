@@ -106,7 +106,7 @@
   animation: completed-animation 2s linear infinite;
 }
 
-/* Add this CSS for the progress effect on the border only */
+
 .progress-ring__circle {
   background: conic-gradient(#67cb88 var(--progress), transparent 0);
   border-radius: 50%;
@@ -114,13 +114,13 @@
 
 @keyframes alternateColors {
     0% {
-      stroke: #67cb88; /* Green */
+      stroke: #67cb88;
     }
     50% {
-      stroke: #ff4c4c; /* Red */
+      stroke: #ff4c4c;
     }
     100% {
-      stroke: #67cb88; /* Green */
+      stroke: #67cb88; 
     }
   }
   
