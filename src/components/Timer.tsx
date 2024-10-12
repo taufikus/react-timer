@@ -149,7 +149,7 @@ const Timer = ({ title, endTime, elapsedTime = 0 }: TimerProps) => {
         if (newLevel !== level) {
           setLevel(newLevel);
           setShowCongrats(true);
-          setTimeout(() => setShowCongrats(false), 3000);
+          setTimeout(() => setShowCongrats(false), 5000);
         }
         
         return newPoints;
