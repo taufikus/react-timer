@@ -7,6 +7,8 @@
 
 This project features a customizable timer component built with React. It's not just your average timer - it comes with **a sleek design and some cool features like start, pause, and reset functionality, also with audio feedback functionality when the last 10 seconds remain**, and a Storybook for the component.
 
+![Timer-Latest-UI](https://github.com/user-attachments/assets/ec66de3d-7454-4368-903a-ad1c08461550)
+
 ## 🎉 New Feature: Timer Customization
 
 As promised, I'm excited to introduce a new level of flexibility to our timer component!
