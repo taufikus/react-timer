@@ -1,0 +1,62 @@
+
+.timer-form {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #26273d;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timer-form h3 {
+    color: #a2a4cb;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .timer-form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #545576;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .timer-form input::placeholder {
+    color: #a2a4cb;
+  }
+  
+  .timer-form button {
+    width: 70%;
+    padding: 10px;
+    margin-top: 0.5rem;
+    background-color: #67cb88;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .timer-form button:hover {
+    background-color: #5ab777;
+  }
+  .timer-form button:disabled {
+    background-color: #4a4a5e;
+    cursor: not-allowed;
+  }
+  
+  .timer-form button:disabled:hover {
+    background-color: #4a4a5e;
+  }
+  @media (max-width: 768px) {
+    .timer-form {
+      width: 90%;
+      max-width: 300px;
+    }
+  }

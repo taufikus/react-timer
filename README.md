@@ -7,6 +7,28 @@
 
 This project features a customizable timer component built with React. It's not just your average timer - it comes with **a sleek design and some cool features like start, pause, and reset functionality, also with audio feedback functionality when the last 10 seconds remain**, and a Storybook for the component.
 
+## 🎉 New Feature: Timer Customization
+
+As promised, I'm excited to introduce a new level of flexibility to our timer component!
+
+### ⏱️ Customizable Timers
+
+Now you can personalize your timers with:
+
+- **🏷️ Custom Titles**: Give your timers meaningful names
+- **⏳ Flexible End Times**: Set the duration that suits your needs
+
+#### How it works:
+
+1. **Set Your Title**: Choose a name that reflects the purpose of your timer
+2. **Define End Time**: Specify the duration in seconds
+
+#### Example Usage:
+
+```javascript
+<Timer title="Coffee Break" endTime={300} />  
+<Timer title="Quick Meditation" endTime={600} />  
+```
 ## Key Features
 
 - **Audio Feedback:** for last remaining 10 seconds

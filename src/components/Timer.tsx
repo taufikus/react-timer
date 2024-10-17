@@ -36,6 +36,7 @@ const Timer = ({ title, endTime, elapsedTime = 0 }: TimerProps) => {
       throw new Error('Timer supports a maximum of 59 minutes and 59 seconds');
     }
     countingAudioRef.current = new Audio('/counting.mp3');
+    setTime(elapsedTime);
   }, [endTime]);
 
   // Formating seconds to MM:SS as per requirement
@@ -45,9 +46,9 @@ const Timer = ({ title, endTime, elapsedTime = 0 }: TimerProps) => {
     return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
   };
 
-  // Calculating time left
   const calculateTimeLeft = useCallback(() => {
-    return Math.max(0, endTime - time);
+    const timeLeft = Math.max(0, endTime - time);
+    return timeLeft;
   }, [endTime, time]);
 
   // Main timer logic
